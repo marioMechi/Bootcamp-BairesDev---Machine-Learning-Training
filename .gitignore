@@ -1,0 +1,23 @@
+# Ambiente virtual Python
+.venv/
+
+# Dataset COCO (imagens e labels - muito grande para o GitHub)
+Criação de Uma Base de Dados e Treinamento da Rede YOLO/coco_dataset/images/
+Criação de Uma Base de Dados e Treinamento da Rede YOLO/coco_dataset/labels/
+Criação de Uma Base de Dados e Treinamento da Rede YOLO/coco_dataset/annotations/
+
+# YOLOv5 (repositório externo - usar como submodule ou ignorar)
+Criação de Uma Base de Dados e Treinamento da Rede YOLO/yolov5/
+
+# Resultados de treinamento (pesos .pt são grandes)
+Criação de Uma Base de Dados e Treinamento da Rede YOLO/resultados/**/*.pt
+Criação de Uma Base de Dados e Treinamento da Rede YOLO/resultados/**/labels/
+
+# Cache Python
+__pycache__/
+*.pyc
+*.pyo
+
+# Arquivos temporários
+*.tmp
+*.log
