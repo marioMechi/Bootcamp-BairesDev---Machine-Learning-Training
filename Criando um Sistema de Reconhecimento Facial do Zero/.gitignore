@@ -1,0 +1,22 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.venv/
+
+# Modelos treinados (grandes demais para versionamento)
+modelos/*.keras
+modelos/*.h5
+modelos/logs/
+modelos/resultados_teste/
+
+# Dataset (baixado pelo kagglehub)
+dataset/
+
+# Metadados e gráficos gerados
+modelos/metadados.json
+modelos/*.png
+
+# Ambiente virtual alternativo
+venv/
+env/
